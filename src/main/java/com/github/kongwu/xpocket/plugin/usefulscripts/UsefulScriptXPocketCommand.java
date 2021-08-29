@@ -13,7 +13,7 @@ import static com.github.kongwu.xpocket.plugin.usefulscripts.UsefulScriptXPocket
  *
  * @author kongwu <jiangxin1035@163.com>
  */
-@CommandInfo(name = "coat", usage = "echo Hello world | coat", index = 0)
+@CommandInfo(name = "coat", usage = "coat /tmp/hello.txt", index = 0)
 
 @CommandInfo(name = "ap", usage = "ap path0 path1 ... pathn", index = 1)
 
@@ -41,6 +41,12 @@ public class UsefulScriptXPocketCommand extends AbstractXPocketCommand {
 
     }
 
+    /**
+     * 创建 exec 参数
+     * @param cmd useful-scripts cmd
+     * @param args args
+     * @return
+     */
     private String[] createExecArgs(String cmd, String[] args) {
         String[] execArgs = new String[args.length + 2];
         if ("show-duplicate-java-classes".equals(cmd)) {
