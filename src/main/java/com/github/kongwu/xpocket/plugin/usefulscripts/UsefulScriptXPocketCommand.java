@@ -23,11 +23,11 @@ import static com.github.kongwu.xpocket.plugin.usefulscripts.UsefulScriptXPocket
 
 @CommandInfo(name = "uq", usage = "uq foo.txt", index = 4)
 
-@CommandInfo(name = "show-busy-java-threads", usage = "show-busy-java-threads", index = 5)
+@CommandInfo(name = "show-busy-java-threads", usage = "show-busy-java-threads, show-busy-java-threads -p <指定的Java进程Id>", index = 5)
 
-@CommandInfo(name = "show-duplicate-java-classes", usage = "show-duplicate-java-classes", index = 6)
+@CommandInfo(name = "show-duplicate-java-classes", usage = "show-duplicate-java-classes -L path/to/lib_dir1", index = 6)
 
-@CommandInfo(name = "find-in-jars", usage = "find-in-jars 'log4j\\.properties'", index = 7)
+@CommandInfo(name = "find-in-jars", usage = "find-in-jars 'log4j\\.properties' -d /path/to/find/directory", index = 7)
 public class UsefulScriptXPocketCommand extends AbstractXPocketCommand {
 
     @Override
