@@ -13,21 +13,20 @@ import static com.github.kongwu.xpocket.plugin.usefulscripts.UsefulScriptXPocket
  *
  * @author kongwu <jiangxin1035@163.com>
  */
-@CommandInfo(name = "coat", usage = "coat /tmp/hello.txt", index = 0)
 
-@CommandInfo(name = "ap", usage = "ap path0 path1 ... pathn", index = 1)
+@CommandInfo(name = "ap", usage = "ap path0 path1 ... pathn", index = 0)
 
-@CommandInfo(name = "rp", usage = "tcp-connection-state-counter", index = 2)
+@CommandInfo(name = "rp", usage = "tcp-connection-state-counter", index = 1)
 
-@CommandInfo(name = "tcp-connection-state-counter", usage = "ap path0 path1 ... pathn", index = 3)
+@CommandInfo(name = "tcp-connection-state-counter", usage = "ap path0 path1 ... pathn", index = 2)
 
-@CommandInfo(name = "uq", usage = "uq foo.txt", index = 4)
+@CommandInfo(name = "uq", usage = "uq foo.txt", index = 3)
 
-@CommandInfo(name = "show-busy-java-threads", usage = "show-busy-java-threads, show-busy-java-threads -p <指定的Java进程Id>", index = 5)
+@CommandInfo(name = "show-busy-java-threads", usage = "show-busy-java-threads, show-busy-java-threads -p <指定的Java进程Id>", index = 4)
 
-@CommandInfo(name = "show-duplicate-java-classes", usage = "show-duplicate-java-classes -L path/to/lib_dir1", index = 6)
+@CommandInfo(name = "show-duplicate-java-classes", usage = "show-duplicate-java-classes -L path/to/lib_dir1", index = 5)
 
-@CommandInfo(name = "find-in-jars", usage = "find-in-jars 'log4j\\.properties' -d /path/to/find/directory", index = 7)
+@CommandInfo(name = "find-in-jars", usage = "find-in-jars 'log4j\\.properties' -d /path/to/find/directory", index = 6)
 public class UsefulScriptXPocketCommand extends AbstractXPocketCommand {
 
     @Override

@@ -1,4 +1,4 @@
 plugin-name=useful-scripts
 plugin-namespace=KONGWU
-plugin-version=0.0.1-SNAPSHOT
+plugin-version=1.0-alpha1
 main-implementation=com.github.kongwu.xpocket.plugin.usefulscripts.UsefulScriptXPocketPlugin
